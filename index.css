@@ -14,6 +14,11 @@ body {
   }
 
   div#main-container {
+    /* Alinhamento dos itens internos */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* **************** */
     text-align: center;
     border-radius: 30px;
     margin-top: 10px;
@@ -21,7 +26,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1200px) {
   body {
     height: 100vh;
     display: flex;
@@ -44,8 +49,8 @@ body {
 }
 
 a {
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 8px;
+  margin-bottom: 10px;
 }
 
 /* div#main-container {
@@ -65,20 +70,10 @@ button {
   border-radius: 15px;
 }
 
-div#image-container {
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-}
-
 img#Elden-ring-img {
-  border: 5px solid black;
+  /* border: 5px solid black; */
   border-radius: 15px;
-}
-
-img#stats-input {
-  border: 12px black;
-  border-radius: 15px;
+  object-fit: contain;
 }
 
 div#btn-container {
@@ -94,9 +89,10 @@ div#btn-container {
 
 button:hover {
   opacity: 100;
+  color: red;
 }
 
 audio {
-  width: 500px;
-  height: 30px;
+  width: 400px;
+  height: 20px;
 }

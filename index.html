@@ -34,10 +34,12 @@
         <img src="assets/img/Lore.png" alt="Elden Ring" id="stats-input" />
       </div>
       <div id="btn-container">
+        <!-- Está sendo usado um ID em todos os botões pois há algum problema em personalizar através da classe -->
         <button
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Astrologer.png');alterarImagem('stats-input', 'assets/img/AstrologerStats.png')"
+          id="btn-choose"
         >
           Astrologer
         </button>
@@ -45,6 +47,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Bandit.png');alterarImagem('stats-input', 'assets/img/BanditStats.png')"
+          id="btn-choose"
         >
           Bandit
         </button>
@@ -52,6 +55,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/confessor.png');alterarImagem('stats-input', 'assets/img/ConfessorStats.png')"
+          id="btn-choose"
         >
           Confessor
         </button>
@@ -59,6 +63,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Hero.png');alterarImagem('stats-input', 'assets/img/HeroStats.png')"
+          id="btn-choose"
         >
           Hero
         </button>
@@ -66,6 +71,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Prophet.png');alterarImagem('stats-input', 'assets/img/ProphetStats.png')"
+          id="btn-choose"
         >
           Prophet
         </button>
@@ -73,6 +79,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Prisoner.png');alterarImagem('stats-input', 'assets/img/PrisonerStats.png')"
+          id="btn-choose"
         >
           Prisoner
         </button>
@@ -80,6 +87,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Samurai.png');alterarImagem('stats-input', 'assets/img/SamuraiStats.png')"
+          id="btn-choose"
         >
           Samurai
         </button>
@@ -87,6 +95,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Vagabond.png');alterarImagem('stats-input', 'assets/img/VagabondStats.png')"
+          id="btn-choose"
         >
           Vagabond
         </button>
@@ -94,6 +103,7 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Warrior.png');alterarImagem('stats-input', 'assets/img/ProphetStats.png')"
+          id="btn-choose"
         >
           Warrior
         </button>
@@ -101,12 +111,18 @@
           type="button"
           class="btn btn-secondary btn-sm"
           onclick="alterarImagem('Elden-ring-img', 'assets/img/Wretch.png');alterarImagem('stats-input', 'assets/img/WretchStats.png')"
+          id="btn-choose"
         >
           Wretch
         </button>
       </div>
       <div>
-        <a type="button" class="btn btn-secondary btn-sm" href="Start.html">
+        <a
+          type="button"
+          class="btn btn-secondary btn-sm"
+          href="Start.html"
+          style="background-color: black; font-family: Optimus; opacity: 85%"
+        >
           Start New Game
         </a>
       </div>

@@ -87,9 +87,23 @@ div#btn-container {
   padding-bottom: 5px;
 }
 
-button:hover {
+@font-face {
+  font-family: 'Optimus';
+  src: url('assets/fonts/OptimusPrinceps.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+button#btn-choose {
+  border-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: black;
+  font-family: Optimus;
+}
+
+button#btn-choose:hover {
   opacity: 100;
-  color: red;
+  background-color: rgb(71, 71, 71);
 }
 
 audio {

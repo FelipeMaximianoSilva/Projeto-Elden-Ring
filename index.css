@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -65,13 +67,37 @@ img {
   height: 550px;
 }
 
+@media (max-width: 562px){
+  img{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  img#Elden-ring-img {
+    /* border: 100% solid black; */
+    border-radius: 5px;
+    /* object-fit: cover; */
+    border: 4px solid black;
+  }
+
+  div.images-style {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+/* img#stats-input{
+  width: 562px;
+} */
+
 button {
   opacity: 85%;
   border-radius: 15px;
 }
 
 img#Elden-ring-img {
-  border: 4px solid black;
+  /* border: 4px solid black; */
   border-radius: 15px;
   object-fit: contain;
 }
@@ -94,12 +120,21 @@ div#btn-container {
   font-style: normal;
 }
 
-button#btn-choose {
+button.btn-secondary {
   border-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
   background-color: black;
+  padding-top: 5px;
   font-family: Optimus;
 }
+
+/* button#btn-choose {
+  border-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding-top: 5px;
+  font-family: Optimus;
+} */
 
 button#btn-choose:hover {
   opacity: 100;

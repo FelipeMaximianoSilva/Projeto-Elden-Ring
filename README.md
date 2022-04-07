@@ -1,4 +1,4 @@
-# Projeto-Pokedex
+# Projeto Elden Ring
 
 ## Nesse projeto tinhamos o objetivo de criar um "jogo do humor" onde ao clicarmos em um botão é necessário alterar ao menos 2 elementos na página.
 
